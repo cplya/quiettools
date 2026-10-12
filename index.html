@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QuietTools — Simple utility for indie builders</title>
+  <meta name="description" content="QuietTools is a lightweight web utility for indie builders. Clear pricing, no account required to try." />
+  <style>
+    :root { color-scheme: light; --fg:#111; --muted:#555; --line:#e6e6e6; --bg:#fff; --accent:#0b57d0; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:var(--fg); background:var(--bg); }
+    main { max-width:720px; margin:0 auto; padding:48px 20px 80px; }
+    h1 { font-size:1.85rem; margin:0 0 8px; }
+    h2 { font-size:1.2rem; margin:36px 0 10px; }
+    p, li { color:var(--muted); }
+    .lead { font-size:1.05rem; color:var(--fg); }
+    .card { border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:18px 0; }
+    .price { font-size:1.6rem; color:var(--fg); font-weight:700; }
+    .price span { font-size:0.95rem; font-weight:500; color:var(--muted); }
+    a { color:var(--accent); }
+    nav { display:flex; gap:16px; flex-wrap:wrap; margin:20px 0 8px; font-size:0.95rem; }
+    footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); font-size:0.9rem; color:var(--muted); }
+    .btn { display:inline-block; margin-top:12px; padding:10px 16px; border-radius:8px; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; }
+    .note { font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>QuietTools</h1>
+    <p class="lead">A small web utility that helps indie builders prepare a clean product page checklist and export a one-page brief. Built for solo makers who want less busywork before launch.</p>
+    <nav>
+      <a href="#pricing">Pricing</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
+      <a href="#support">Support</a>
+    </nav>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Turn a rough product idea into a structured one-page brief</li>
+      <li>Generate pricing / privacy / support checklist items for store review</li>
+      <li>Export plain text you can paste into your landing page</li>
+    </ul>
+
+    <section id="pricing" class="card">
+      <h2 style="margin-top:0">Pricing</h2>
+      <p class="price">$9 <span>/ month</span></p>
+      <p>Includes unlimited brief exports and checklist updates. Cancel anytime. A free preview mode is available without payment.</p>
+      <a class="btn" href="#support">Get access</a>
+      <p class="note">Checkout will be enabled after payment review. Support email below for early access.</p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>Last updated: October 12, 2026</p>
+      <p>QuietTools (“we”) provides a lightweight web utility. We collect only what is needed to operate the service: account email if you subscribe, payment records processed by our payment provider (Creem), and basic technical logs (IP, browser) for security and abuse prevention.</p>
+      <p>We do not sell personal data. Payment card details are handled by the payment provider and are not stored on our servers. You may email us to request access or deletion of account data.</p>
+      <p>Contact for privacy requests: <a href="mailto:support@quiettools.app">support@quiettools.app</a></p>
+    </section>
+
+    <section id="terms">
+      <h2>Terms of Service</h2>
+      <p>Last updated: October 12, 2026</p>
+      <p>By using QuietTools you agree to use the service lawfully and not to abuse, reverse-engineer, or disrupt it. The service is provided “as is” without warranties. Subscriptions renew monthly until canceled. Refunds may be requested within 7 days of a first charge by emailing support.</p>
+      <p>We may update these terms; continued use after updates means acceptance. Governing questions about the service can be sent to support.</p>
+    </section>
+
+    <section id="support">
+      <h2>Support</h2>
+      <p>Email: <a href="mailto:support@quiettools.app">support@quiettools.app</a></p>
+      <p class="note">We typically reply within 1–2 business days.</p>
+    </section>
+
+    <footer>
+      QuietTools · Independent utility for indie builders · <a href="#privacy">Privacy</a> · <a href="#terms">Terms</a>
+    </footer>
+  </main>
+</body>
+</html>
